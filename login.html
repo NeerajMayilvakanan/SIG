@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" href="login.css">
+    <script src="script.js"></script>
+  </head>
+  <style>
+  ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: white;
+}
+
+li {
+float: left;
+
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+</style>
+</head>
+<body >
+<div class="login-box">
+  <h2>Login</h2>
+  <form action="save.php" method="post">
+    <div class="user-box">
+      <input type="text" name="userName" id="userName" required="">
+      <label>Username</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="pass" id="pass" required="">
+      <label>Password</label>
+    </div>
+    <div class="wrong">
+
+    </div>
+    <input type="submit"  value="submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
